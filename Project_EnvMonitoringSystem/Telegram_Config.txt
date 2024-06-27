@@ -1,0 +1,20 @@
+Steps to create a Bot in Telegram and add to Group.
+
+1. Fownload and install Telegram on your mobile.
+2. Search for the BotFather Bot in Telegram.
+3. send it a message called /new.
+4. Follow all the steps, it will create a new Bot for you.
+6. Once the Bot is created, you will get a message 
+with the Bot API token ID. Save the token id.
+8A26206848:AAGkWxomKYigScxQ4t7HvfLPygwFz-OgVzc
+Example message:
+
+Done! Congratulations on your new bot. You will find it at t.me/jritistel_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+Use this token to access the HTTP API:
+8A26206848:AAGkWxomKYigScxQ4t7HvfLPygwFz-OgVzc
+Keep your token secure and store it safely, it can be used by anyone to control your bot.
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+7. Create a ew Telegram Group. 
+8. Add new members on the group as also the Newly created bot.
+9. Promote the Bot to Admin.
+

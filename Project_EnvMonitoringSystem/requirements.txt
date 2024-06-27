@@ -1,0 +1,3 @@
+asyncio
+telegram
+python-telegram-bot

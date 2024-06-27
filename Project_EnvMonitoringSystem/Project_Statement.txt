@@ -1,0 +1,10 @@
+Project Statement:
+  1. Project is mimicking reading of environment sensor
+    data of CO2, Temperature and Humidity.
+  2. Create rules so that if any of these parameters breach the rules, then an 
+    alert has to go out. 
+  3. The breach zones are as follows:
+         CO2 : 'UL':1500,'LL':400
+         temp :{'UL':35,'LL':15}
+         humdty:{'UL':60,'LL':30}
+  4. On violation an alert has to be sent out to a Telegram Group.
