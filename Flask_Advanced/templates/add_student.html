@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Add Student</h2>
+<form method="POST" action="{{ url_for('add_student') }}">
+    <label for="name">Name</label><br>
+    <input type="text" name="name" required><br>
+    <label for="city">City</label><br>
+    <input type="text" name="city" required><br>
+    <label for="addr">Address</label><br>
+    <textarea name="addr" required></textarea><br>
+    <label for="pin">PIN</label><br>
+    <input type="text" name="pin" required><br>
+    <input type="submit" value="Add Student">
+</form>
+{% endblock %}
