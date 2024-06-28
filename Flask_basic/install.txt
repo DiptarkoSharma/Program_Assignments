@@ -1,0 +1,19 @@
+# On Windows.
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# With pip.
+pip install uv
+
+# With Homebrew.
+brew install uv
+
+# to create a virtual environment
+uv venv
+
+# activation commands are same as above
+
+# On macOS and Linux.
+source .venv/bin/activate
+
+# On Windows.
+.venv\Scripts\activate

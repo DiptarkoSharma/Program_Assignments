@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Submission Form</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <script type="text/javascript" src="{{url_for('static',filename='js/script.js')}}">
+        
+    </script>
+</head>
+<body>
+    <h1>Grade Submission Form</h1>
+
+    <form action="/submit" method="post"><br><br>
+        <label for="science">Science:</label><br>
+        <input type="number" id="science" name="science" required>
+        <br>
+
+        <label for="maths">Maths:</label><br><br>
+        <input type="number" id="maths" name="maths" required>
+        <br>
+
+        <label for="english">English:</label><br><br>
+        <input type="number" id="english" name="english" required>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
