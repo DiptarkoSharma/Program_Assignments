@@ -1,0 +1,15 @@
+Unittest module:
+https://www.dataquest.io/blog/unit-tests-python/
+
+Python Design patterns:
+https://www.tutorialspoint.com/python_design_patterns/python_design_patterns_singleton.htm
+
+https://www.javatpoint.com/factory-design-pattern-in-python
+
+programiz.com
+geekforgeeks
+Youtube channels:
+Krish Naik
+Code Basics
+Tech with Tim
+Telusko
